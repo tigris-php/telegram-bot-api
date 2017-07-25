@@ -87,7 +87,7 @@ By default every mapped method returns `null` value if an error occurs.
 You can change this behavior by adding *callable* error handler to your ApiWrapper instance.
 
 ```php
-$apiWrapper->setErrorHandler(function(\Exception $e) use ($logger) {
+$apiWrapper->setErrorHandler(function (\Exception $e) use ($logger) {
     $logger->log($e);         
 });
 ```
