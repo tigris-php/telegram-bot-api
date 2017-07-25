@@ -1,11 +1,12 @@
 {
     "name": "tigris/telegram-bot-api",
-    "description": "Pure PHP client for a Telegram Bot API",
+    "description": "Lightweight PHP7 client for a Telegram Bot API",
     "keywords": [
         "php",
         "telegram",
         "bot",
-        "api"
+        "api",
+        "client"
     ],
     "license": "MIT",
     "authors": [
