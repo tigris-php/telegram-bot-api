@@ -18,20 +18,20 @@ use Tigris\Telegram\Types\Scalar\ScalarString;
  *
  * @property User $user
  * @property string $status
- * @property int|null $until_date
- * @property bool|null $can_be_edited
- * @property bool|null $can_change_info
- * @property bool|null $can_post_messages
- * @property bool|null $can_edit_messages
- * @property bool|null $can_delete_messages
- * @property bool|null $can_invite_users
- * @property bool|null $can_restrict_members
- * @property bool|null $can_pin_messages
- * @property bool|null $can_promote_members
- * @property bool|null $can_send_messages
- * @property bool|null $can_send_media_messages
- * @property bool|null $can_send_other_messages
- * @property bool|null $can_add_web_page_previews
+ * @property int $until_date
+ * @property bool $can_be_edited
+ * @property bool $can_change_info
+ * @property bool $can_post_messages
+ * @property bool $can_edit_messages
+ * @property bool $can_delete_messages
+ * @property bool $can_invite_users
+ * @property bool $can_restrict_members
+ * @property bool $can_pin_messages
+ * @property bool $can_promote_members
+ * @property bool $can_send_messages
+ * @property bool $can_send_media_messages
+ * @property bool $can_send_other_messages
+ * @property bool $can_add_web_page_previews
  */
 class ChatMember extends BaseObject
 {

@@ -2,6 +2,7 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Inline;
 
 use Tigris\Telegram\Types\Base\BaseObject;
@@ -17,11 +18,11 @@ use Tigris\Telegram\Types\User;
  * @package Tigris\Types
  * @link https://core.telegram.org/bots/api#inlinequery
  *
- * @property string $id Unique identifier for this query.
- * @property User $from Sender.
- * @property Location $location Optional. Sender location, only for bots that request user location.
- * @property string $query Text of the query (up to 512 characters).
- * @property string $offset Offset of the results to be returned, can be controlled by the bot.
+ * @property string $id
+ * @property User $from
+ * @property Location $location
+ * @property string $query
+ * @property string $offset
  */
 class InlineQuery extends BaseObject
 {

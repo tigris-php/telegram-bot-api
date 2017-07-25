@@ -2,7 +2,9 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Inline\InlineQueryResult;
+
 use Tigris\Telegram\Types\Inline\InlineQueryResult;
 
 /**
@@ -12,12 +14,12 @@ use Tigris\Telegram\Types\Inline\InlineQueryResult;
  * @link https://core.telegram.org/bots/api#inlinequeryresultarticle
  *
  * @property string $title
- * @property string|null $url
- * @property bool|null $hide_url
- * @property string|null $description
- * @property string|null $thumb_url
- * @property string|null $thumb_width
- * @property string|null $thumb_height
+ * @property string $url
+ * @property bool $hide_url
+ * @property string $description
+ * @property string $thumb_url
+ * @property string $thumb_width
+ * @property string $thumb_height
  */
 class InlineQueryResultArticle extends InlineQueryResult
 {

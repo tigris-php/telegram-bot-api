@@ -2,6 +2,7 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Inline\InputMessageContent;
 
 use Tigris\Telegram\Types\Inline\InputMessageContent;
@@ -12,8 +13,8 @@ use Tigris\Telegram\Types\Inline\InputMessageContent;
  * @package Tigris\Types\Inline
  * @link https://core.telegram.org/bots/api#inputlocationmessagecontent
  *
- * @property float $latitude Latitude of the location in degrees.
- * @property float $longitude Longitude of the location in degrees.
+ * @property float $latitude
+ * @property float $longitude
  */
 class InputLocationMessageContent extends InputMessageContent
 {

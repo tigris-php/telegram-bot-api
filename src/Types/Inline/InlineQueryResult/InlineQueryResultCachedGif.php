@@ -2,7 +2,9 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Inline\InlineQueryResult;
+
 use Tigris\Telegram\Types\Inline\InlineQueryResult;
 
 /**
@@ -13,9 +15,9 @@ use Tigris\Telegram\Types\Inline\InlineQueryResult;
  * @package Tigris\Types\Inline
  * @link https://core.telegram.org/bots/api#inlinequeryresultcachedgif
  *
- * @property string $gif_file_id A valid file identifier for the GIF file.
- * @property string $title Optional. Title for the result.
- * @property string $caption Optional. Caption of the GIF file to be sent, 0-200 characters.
+ * @property string $gif_file_id
+ * @property string $title
+ * @property string $caption
  */
 class InlineQueryResultCachedGif extends InlineQueryResult
 {

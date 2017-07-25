@@ -21,16 +21,16 @@ use Tigris\Telegram\Types\Stickers\Sticker;
  * @package Tigris\Types
  * @link https://core.telegram.org/bots/api#message
  *
- * @property integer $message_id
+ * @property int $message_id
  * @property User $from
- * @property integer $date
+ * @property int $date
  * @property Chat $chat
  * @property User $forward_from
  * @property Chat $forward_from_chat
- * @property integer $forward_from_message_id
- * @property integer $forward_date
+ * @property int $forward_from_message_id
+ * @property int $forward_date
  * @property Message $reply_to_message
- * @property integer $edit_date
+ * @property int $edit_date
  * @property string $text
  * @property MessageEntity[]
  * @property Audio $audio
@@ -49,12 +49,12 @@ use Tigris\Telegram\Types\Stickers\Sticker;
  * @property User $left_chat_member
  * @property string $new_chat_title
  * @property PhotoSize[] $new_chat_photo
- * @property boolean $delete_chat_photo
- * @property boolean $group_chat_created
- * @property boolean $supergroup_chat_created
- * @property boolean $channel_chat_created
- * @property integer $migrate_to_chat_id
- * @property integer $migrate_from_chat_id
+ * @property bool $delete_chat_photo
+ * @property bool $group_chat_created
+ * @property bool $supergroup_chat_created
+ * @property bool $channel_chat_created
+ * @property int $migrate_to_chat_id
+ * @property int $migrate_from_chat_id
  * @property Message $pinned_message
  * @property Invoice $invoice
  * @property SuccessfulPayment $successful_payment

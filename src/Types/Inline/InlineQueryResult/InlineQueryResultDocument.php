@@ -2,7 +2,9 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Inline\InlineQueryResult;
+
 use Tigris\Telegram\Types\Inline\InlineQueryResult;
 
 /**
@@ -13,14 +15,14 @@ use Tigris\Telegram\Types\Inline\InlineQueryResult;
  * @package Tigris\Types\Inline
  * @link https://core.telegram.org/bots/api#inlinequeryresultdocument
  *
- * @property string $title Title for the result.
- * @property string $caption Optional. Caption of the document to be sent, 0-200 characters.
- * @property string $document_url A valid URL for the file.
- * @property string $mime_type Mime type of the content of the file, either “application/pdf” or “application/zip”.
- * @property string $description Optional. Short description of the result.
- * @property string $thumb_url Optional. URL of the thumbnail (jpeg only) for the file.
- * @property integer $thumb_width Optional. Thumbnail width.
- * @property integer $thumb_height Optional. Thumbnail height.
+ * @property string $title
+ * @property string $caption
+ * @property string $document_url
+ * @property string $mime_type
+ * @property string $description
+ * @property string $thumb_url
+ * @property int $thumb_width
+ * @property int $thumb_height
  */
 class InlineQueryResultDocument extends InlineQueryResult
 {

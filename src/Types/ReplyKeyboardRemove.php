@@ -14,8 +14,8 @@ use Tigris\Telegram\Types\Interfaces\ReplyMarkupInterface;
  * @package Tigris\Telegram\Types
  * @link https://core.telegram.org/bots/api#replykeyboardremove
  *
- * @property boolean $remove_keyboard
- * @property boolean $selective
+ * @property bool $remove_keyboard
+ * @property bool $selective
  */
 class ReplyKeyboardRemove extends BaseObject implements ReplyMarkupInterface
 {

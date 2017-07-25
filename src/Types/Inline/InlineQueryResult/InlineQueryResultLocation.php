@@ -2,7 +2,9 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Inline\InlineQueryResult;
+
 use Tigris\Telegram\Types\Inline\InlineQueryResult;
 
 /**
@@ -12,12 +14,12 @@ use Tigris\Telegram\Types\Inline\InlineQueryResult;
  * @package Tigris\Types\Inline
  * @link https://core.telegram.org/bots/api#inlinequeryresultlocation
  *
- * @property float $latitude Location latitude in degrees.
- * @property float $longitude Location longitude in degrees.
- * @property string $title Location title.
- * @property string $thumb_url Optional. Url of the thumbnail for the result.
- * @property integer $thumb_width Optional. Thumbnail width.
- * @property integer $thumb_height Optional. Thumbnail height.
+ * @property float $latitude
+ * @property float $longitude
+ * @property string $title
+ * @property string $thumb_url
+ * @property int $thumb_width
+ * @property int $thumb_height
  */
 class InlineQueryResultLocation extends InlineQueryResult
 {

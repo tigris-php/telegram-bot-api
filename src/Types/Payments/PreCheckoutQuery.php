@@ -20,7 +20,7 @@ use Tigris\Telegram\Types\User;
  * @property string $id
  * @property User $from
  * @property string $currency
- * @property integer $total_amount
+ * @property int $total_amount
  * @property string $invoice_payload
  * @property string $shipping_option_id
  * @property OrderInfo $order_info

@@ -18,7 +18,7 @@ use Tigris\Telegram\Types\Scalar\ScalarString;
  * @property Location $location
  * @property string $title
  * @property string $address
- * @property string|null $foursquare_id
+ * @property string $foursquare_id
  */
 class Venue extends BaseObject
 {

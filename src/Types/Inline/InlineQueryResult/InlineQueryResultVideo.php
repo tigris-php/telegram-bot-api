@@ -18,9 +18,9 @@ use Tigris\Telegram\Types\Inline\InlineQueryResult;
  * @property string $thumb_url URL of the thumbnail (jpeg only) for the video.
  * @property string $title Title for the result.
  * @property string $caption Optional. Caption of the video to be sent, 0-200 characters.
- * @property integer $video_width Optional. Video width.
- * @property integer $video_height Optional. Video height.
- * @property integer $video_duration Optional. Video duration in seconds.
+ * @property int $video_width Optional. Video width.
+ * @property int $video_height Optional. Video height.
+ * @property int $video_duration Optional. Video duration in seconds.
  * @property string $description Optional. Short description of the result.
  */
 class InlineQueryResultVideo extends InlineQueryResult

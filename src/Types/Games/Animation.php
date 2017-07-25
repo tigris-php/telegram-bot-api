@@ -18,11 +18,11 @@ use Tigris\Telegram\Types\Scalar\ScalarString;
  * @package Tigris\Types
  * @link https://core.telegram.org/bots/api#animation
  *
- * @property string $file_id Unique file identifier
- * @property PhotoSize[] $thumb Optional. Animation thumbnail as defined by sender.
- * @property string $file_name Optional. Original animation filename as defined by sender.
- * @property string $mime_type Optional. MIME type of the file as defined by sender.
- * @property string $file_size Optional. File size.
+ * @property string $file_id
+ * @property PhotoSize[] $thumb
+ * @property string $file_name
+ * @property string $mime_type
+ * @property string $file_size
  */
 class Animation extends BaseObject
 {

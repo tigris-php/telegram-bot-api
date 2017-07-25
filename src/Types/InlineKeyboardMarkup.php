@@ -13,8 +13,7 @@ use Tigris\Telegram\Types\Interfaces\ReplyMarkupInterface;
  * @package Tigris\Types
  * @link https://core.telegram.org/bots/api#inlinekeyboardmarkup
  *
- * @property InlineKeyboardButton[][] $inline_keyboard Array of button rows, each represented by an array of
- *  InlineKeyboardButton objects.
+ * @property InlineKeyboardButton[][] $inline_keyboard
  */
 class InlineKeyboardMarkup extends BaseObject implements ReplyMarkupInterface
 {

@@ -18,8 +18,8 @@ use Tigris\Telegram\Types\Scalar\ScalarString;
  *
  * @property string $phone_number
  * @property string $first_name
- * @property string|null $last_name
- * @property int|null $user_id
+ * @property string $last_name
+ * @property int $user_id
  */
 class Contact extends BaseObject
 {

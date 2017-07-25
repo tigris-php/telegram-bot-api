@@ -2,7 +2,9 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Inline\InlineQueryResult;
+
 use Tigris\Telegram\Types\Inline\InlineQueryResult;
 
 /**
@@ -13,9 +15,9 @@ use Tigris\Telegram\Types\Inline\InlineQueryResult;
  * @package Tigris\Types\Inline
  * @link https://core.telegram.org/bots/api#inlinequeryresultcachedmpeg4gif
  *
- * @property string $mpeg4_file_id	A valid file identifier for the MP4 file.
- * @property string $title Optional. Title for the result.
- * @property string $caption Optional. Caption of the MPEG-4 file to be sent, 0-200 characters.
+ * @property string $mpeg4_file_id
+ * @property string $title
+ * @property string $caption
  */
 class InlineQueryResultCachedMpeg4Gif extends InlineQueryResult
 {

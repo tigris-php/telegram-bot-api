@@ -2,6 +2,7 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Inline\InputMessageContent;
 
 use Tigris\Telegram\Types\Inline\InputMessageContent;
@@ -12,9 +13,9 @@ use Tigris\Telegram\Types\Inline\InputMessageContent;
  * @package Tigris\Types\Inline
  * @link https://core.telegram.org/bots/api#inputcontactmessagecontent
  *
- * @property string $phone_number Contact's phone number.
- * @property string $first_name Contact's first name.
- * @property string $last_name Optional. Contact's last name.
+ * @property string $phone_number
+ * @property string $first_name
+ * @property string $last_name
  */
 class InputContactMessageContent extends InputMessageContent
 {

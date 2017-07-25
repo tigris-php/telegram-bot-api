@@ -2,7 +2,9 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Inline\InlineQueryResult;
+
 use Tigris\Telegram\Types\Inline\InlineQueryResult;
 
 /**
@@ -14,9 +16,9 @@ use Tigris\Telegram\Types\Inline\InlineQueryResult;
  *
  * @property string $audio_url
  * @property string $title
- * @property string|null $caption
- * @property string|null $performer
- * @property int|null $audio_duration
+ * @property string $caption
+ * @property string $performer
+ * @property int $audio_duration
  */
 class InlineQueryResultAudio extends InlineQueryResult
 {

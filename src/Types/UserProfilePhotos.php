@@ -14,8 +14,8 @@ use Tigris\Telegram\Types\Scalar\ScalarInteger;
  * @package Tigris\Types
  * @link https://core.telegram.org/bots/api#userprofilephotos
  *
- * @property integer $total_count Total number of profile pictures the target user has.
- * @property PhotoSize[][] $photos Requested profile pictures (in up to 4 sizes each).
+ * @property int $total_count
+ * @property PhotoSize[][] $photos
  */
 class UserProfilePhotos extends BaseObject
 {

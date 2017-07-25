@@ -2,6 +2,7 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Base;
 
 use Tigris\Telegram\Types\Interfaces\TypeInterface;
@@ -10,7 +11,7 @@ abstract class BaseArray extends \ArrayObject implements TypeInterface
 {
     const ENTITY_CLASS = null;
     const DIMENSION = 1;
-    
+
     /**
      * @inheritdoc
      * @return array

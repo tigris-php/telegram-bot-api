@@ -15,8 +15,8 @@ use Tigris\Telegram\Types\InlineKeyboardMarkup;
  *
  * @property string $type Type of the result.
  * @property string $id Unique identifier for this result, 1-64 Bytes.
- * @property InlineKeyboardMarkup|null $reply_markup Optional. Inline keyboard attached to the message.
- * @property InputMessageContent|null $input_message_content Content of the message to be sent.
+ * @property InlineKeyboardMarkup $reply_markup Optional. Inline keyboard attached to the message.
+ * @property InputMessageContent $input_message_content Content of the message to be sent.
  */
 abstract class InlineQueryResult extends BaseObject
 {
@@ -39,8 +39,8 @@ abstract class InlineQueryResult extends BaseObject
 
     /**
      * @param $id
-     * @param InlineKeyboardMarkup|null $reply_markup
-     * @param InputMessageContent|null $input_message_content
+     * @param InlineKeyboardMarkup $reply_markup
+     * @param InputMessageContent $input_message_content
      * @return static
      */
     public static function create(

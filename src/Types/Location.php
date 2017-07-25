@@ -14,8 +14,8 @@ use Tigris\Telegram\Types\Scalar\ScalarFloat;
  * @package Tigris\Types
  * @link https://core.telegram.org/bots/api#location
  *
- * @property float $longitude Longitude as defined by sender.
- * @property float $latitude Latitude as defined by sender.
+ * @property float $longitude
+ * @property float $latitude
  */
 class Location extends BaseObject
 {

@@ -2,7 +2,9 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Inline\InlineQueryResult;
+
 use Tigris\Telegram\Types\Inline\InlineQueryResult;
 
 /**
@@ -13,10 +15,10 @@ use Tigris\Telegram\Types\Inline\InlineQueryResult;
  * @package Tigris\Types\Inline
  * @link https://core.telegram.org/bots/api#inlinequeryresultcachedvideo
  *
- * @property string $video_file_id A valid file identifier for the video file.
- * @property string $title Title for the result.
- * @property string $description Optional. Short description of the result.
- * @property string $caption Optional. Caption of the video to be sent, 0-200 characters.
+ * @property string $video_file_id
+ * @property string $title
+ * @property string $description
+ * @property string $caption
  */
 class InlineQueryResultCachedVideo extends InlineQueryResult
 {

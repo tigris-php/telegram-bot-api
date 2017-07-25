@@ -2,6 +2,7 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Inline;
 
 use Tigris\Telegram\Types\Base\BaseObject;
@@ -16,13 +17,11 @@ use Tigris\Telegram\Types\User;
  * @package Tigris\Types
  * @link https://core.telegram.org/bots/api#choseninlineresult
  *
- * @property string $result_id The unique identifier for the result that was chosen.
- * @property User $from The user that chose the result.
- * @property Location $location Optional. Sender location, only for bots that require user location.
- * @property string $inline_message_id Optional. Identifier of the sent inline message.
- *  Available only if there is an inline keyboard attached to the message.
- *  Will be also received in callback queries and can be used to edit the message.
- * @property string $query The query that was used to obtain the result.
+ * @property string $result_id
+ * @property User $from
+ * @property Location $location
+ * @property string $inline_message_id
+ * @property string $query
  */
 class ChosenInlineResult extends BaseObject
 {

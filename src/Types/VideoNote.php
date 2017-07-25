@@ -19,8 +19,8 @@ use Tigris\Telegram\Types\Scalar\ScalarString;
  * @property string $file_id
  * @property int $length
  * @property int $duration
- * @property PhotoSize|null $thumb
- * @property int|null $file_size
+ * @property PhotoSize $thumb
+ * @property int $file_size
  */
 class VideoNote extends BaseObject
 {

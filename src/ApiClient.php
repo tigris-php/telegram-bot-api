@@ -20,14 +20,6 @@ class ApiClient
 
     public function __construct(Client $client)
     {
-        $this->setClient($client);
-    }
-
-    /**
-     * @param Client $client
-     */
-    public function setClient(Client $client)
-    {
         $this->client = $client;
     }
 

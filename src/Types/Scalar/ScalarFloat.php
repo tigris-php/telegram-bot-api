@@ -2,6 +2,7 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Scalar;
 
 use Tigris\Telegram\Types\Base\BaseScalar;
@@ -18,6 +19,6 @@ abstract class ScalarFloat extends BaseScalar
      */
     public static function readData($data)
     {
-        return (float) $data;
+        return (float)$data;
     }
 }

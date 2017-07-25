@@ -17,11 +17,11 @@ use Tigris\Telegram\Types\Scalar\ScalarString;
  *
  * @property string $id
  * @property User $from
- * @property Message|null $message
- * @property string|null $inline_message_id
+ * @property Message $message
+ * @property string $inline_message_id
  * @property string $chat_instance
- * @property string|null $data
- * @property string|null $game_short_name
+ * @property string $data
+ * @property string $game_short_name
  */
 class CallbackQuery extends BaseObject
 {

@@ -18,8 +18,8 @@ use Tigris\Telegram\Types\Scalar\ScalarString;
  *
  * @property string $file_id
  * @property int $duration
- * @property string|null $mime_type
- * @property int|null $file_size
+ * @property string $mime_type
+ * @property int $file_size
  */
 class Voice extends BaseObject
 {

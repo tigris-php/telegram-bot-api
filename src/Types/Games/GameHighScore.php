@@ -15,9 +15,9 @@ use Tigris\Telegram\Types\User;
  *
  * This object represents one row of the high scores table for a game.
  *
- * @property integer $position
+ * @property int $position
  * @property User $user
- * @property integer $score
+ * @property int $score
  */
 class GameHighScore extends BaseObject
 {

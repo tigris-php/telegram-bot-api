@@ -2,7 +2,9 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Inline\InlineQueryResult;
+
 use Tigris\Telegram\Types\Inline\InlineQueryResult;
 
 /**
@@ -13,9 +15,9 @@ use Tigris\Telegram\Types\Inline\InlineQueryResult;
  * @package Tigris\Types\Inline
  * @link https://core.telegram.org/bots/api#inlinequeryresultcachedvoice
  *
- * @property string $voice_file_id A valid file identifier for the voice message.
- * @property string $title Voice message title.
- * @property string $caption Optional. Caption, 0-200 characters.
+ * @property string $voice_file_id
+ * @property string $title
+ * @property string $caption
  */
 class InlineQueryResultCachedVoice extends InlineQueryResult
 {

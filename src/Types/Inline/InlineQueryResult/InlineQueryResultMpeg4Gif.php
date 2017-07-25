@@ -2,7 +2,9 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Inline\InlineQueryResult;
+
 use Tigris\Telegram\Types\Inline\InlineQueryResult;
 
 /**
@@ -14,12 +16,12 @@ use Tigris\Telegram\Types\Inline\InlineQueryResult;
  * @link https://core.telegram.org/bots/api#inlinequeryresultmpeg4gif
  *
  * @property string $mpeg4_url
- * @property int|null $mpeg4_width
- * @property int|null $mpeg4_height
- * @property int|null $mpeg4_duration
+ * @property int $mpeg4_width
+ * @property int $mpeg4_height
+ * @property int $mpeg4_duration
  * @property string $thumb_url
- * @property string|null $title
- * @property string|null $caption
+ * @property string $title
+ * @property string $caption
  */
 class InlineQueryResultMpeg4Gif extends InlineQueryResult
 {

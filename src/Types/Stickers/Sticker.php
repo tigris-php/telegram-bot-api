@@ -18,13 +18,13 @@ use Tigris\Telegram\Types\Scalar\ScalarString;
  * @link https://core.telegram.org/bots/api#sticker
  *
  * @property string $file_id
- * @property integer $width
- * @property integer $height
- * @property PhotoSize|null $thumb
- * @property string|null $emoji
- * @property string|null $set_name
- * @property MaskPosition|null $mask_position
- * @property int|null $file_size
+ * @property int $width
+ * @property int $height
+ * @property PhotoSize $thumb
+ * @property string $emoji
+ * @property string $set_name
+ * @property MaskPosition $mask_position
+ * @property int $file_size
  */
 class Sticker extends BaseObject
 {

@@ -15,10 +15,10 @@ use Tigris\Telegram\Types\Scalar\ScalarString;
  * @package Tigris\Types
  * @link https://core.telegram.org/bots/api#photosize
  *
- * @property string $file_id Unique identifier for this file.
- * @property integer $width Photo width.
- * @property integer $height Photo height.
- * @property integer $file_size Optional. File size.
+ * @property string $file_id
+ * @property int $width.
+ * @property int $height
+ * @property int $file_size
  */
 class PhotoSize extends BaseObject
 {

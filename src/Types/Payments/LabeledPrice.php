@@ -17,7 +17,7 @@ use Tigris\Telegram\Types\Scalar\ScalarString;
  * @link https://core.telegram.org/bots/api#labeledprice
  *
  * @property string $label
- * @property integer $amount
+ * @property int $amount
  */
 class LabeledPrice extends BaseObject
 {

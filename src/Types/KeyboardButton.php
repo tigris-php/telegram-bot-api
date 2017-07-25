@@ -14,8 +14,8 @@ use Tigris\Telegram\Types\Base\BaseObject;
  * @link https://core.telegram.org/bots/api#keyboardbutton
  *
  * @property string $text
- * @property bool|null $request_contact
- * @property bool|null $request_location
+ * @property bool $request_contact
+ * @property bool $request_location
  */
 class KeyboardButton extends BaseObject
 {

@@ -20,9 +20,9 @@ use Tigris\Telegram\Types\Scalar\ScalarString;
  * @property int $width
  * @property int $height
  * @property int $duration
- * @property PhotoSize|null $thumb
- * @property string|null $mime_type
- * @property int|null $file_size
+ * @property PhotoSize $thumb
+ * @property string $mime_type
+ * @property int $file_size
  */
 class Video extends BaseObject
 {

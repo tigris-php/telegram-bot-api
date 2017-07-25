@@ -2,7 +2,9 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Inline\InlineQueryResult;
+
 use Tigris\Telegram\Types\Inline\InlineQueryResult;
 
 /**
@@ -12,7 +14,7 @@ use Tigris\Telegram\Types\Inline\InlineQueryResult;
  * @package Tigris\Types\Inline
  * @link https://core.telegram.org/bots/api#inlinequeryresultcachedsticker
  *
- * @property string $sticker_file_id A valid file identifier of the sticker.
+ * @property string $sticker_file_id
  */
 class InlineQueryResultCachedSticker extends InlineQueryResult
 {

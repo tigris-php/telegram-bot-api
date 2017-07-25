@@ -17,8 +17,8 @@ use Tigris\Telegram\Types\Scalar\ScalarString;
  * @link https://core.telegram.org/bots/api#file
  *
  * @property string $file_id
- * @property int|null $file_size
- * @property string|null $file_path
+ * @property int $file_size
+ * @property string $file_path
  */
 class File extends BaseObject
 {

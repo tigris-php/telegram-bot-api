@@ -17,16 +17,16 @@ use Tigris\Telegram\Types\Scalar\ScalarString;
  * @package Tigris\Types
  * @link https://core.telegram.org/bots/api#chat
  *
- * @property integer $id
+ * @property int $id
  * @property string $type
- * @property string|null $title
- * @property string|null $username
- * @property string|null $first_name
- * @property string|null $last_name
- * @property bool|null $all_members_are_administrators
- * @property ChatPhoto|null $photo
- * @property string|null $description
- * @property string|null $invite_link
+ * @property string $title
+ * @property string $username
+ * @property string $first_name
+ * @property string $last_name
+ * @property bool $all_members_are_administrators
+ * @property ChatPhoto $photo
+ * @property string $description
+ * @property string $invite_link
  */
 class Chat extends BaseObject
 {

@@ -16,7 +16,7 @@ use Tigris\Telegram\Types\Scalar\ScalarString;
  * @package Tigris\Types
  * @link https://core.telegram.org/bots/api#user
  *
- * @property integer $id
+ * @property int $id
  * @property string $first_name
  * @property string $last_name
  * @property string $username

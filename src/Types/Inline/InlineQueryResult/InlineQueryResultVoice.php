@@ -17,7 +17,7 @@ use Tigris\Telegram\Types\Inline\InlineQueryResult;
  * @property string $voice_url A valid URL for the voice recording.
  * @property string $title Recording title.
  * @property string $caption Optional. Caption, 0-200 characters.
- * @property integer $voice_duration Optional. Recording duration in seconds.
+ * @property int $voice_duration Optional. Recording duration in seconds.
  */
 class InlineQueryResultVoice extends InlineQueryResult
 {

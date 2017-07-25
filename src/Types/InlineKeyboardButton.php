@@ -15,23 +15,23 @@ use Tigris\Telegram\Types\Games\CallbackGame;
  * @link https://core.telegram.org/bots/api#inlinekeyboardbutton
  *
  * @property string $text
- * @property string|null $url
- * @property string|null $callback_data
- * @property string|null $switch_inline_query
- * @property string|null $switch_inline_query_current_chat
- * @property CallbackGame|null $callback_game
- * @property boolean|null $pay
+ * @property string $url
+ * @property string $callback_data
+ * @property string $switch_inline_query
+ * @property string $switch_inline_query_current_chat
+ * @property CallbackGame $callback_game
+ * @property bool $pay
  */
 class InlineKeyboardButton extends BaseObject
 {
     /**
      * @param $text
-     * @param string|null $url
-     * @param string|null $callback_data
-     * @param string|null $switch_inline_query
-     * @param string|null $switch_inline_query_current_chat
-     * @param CallbackGame|null $callback_game
-     * @param boolean|null $pay
+     * @param string $url
+     * @param string $callback_data
+     * @param string $switch_inline_query
+     * @param string $switch_inline_query_current_chat
+     * @param CallbackGame $callback_game
+     * @param bool $pay
      * @return BaseObject|static
      */
     public static function create(

@@ -13,8 +13,8 @@ use Tigris\Telegram\Types\Interfaces\ReplyMarkupInterface;
  * @package Tigris\Types
  * @link https://core.telegram.org/bots/api#forcereply
  *
- * @property boolean $force_reply
- * @property boolean $selective
+ * @property bool $force_reply
+ * @property bool $selective
  */
 class ForceReply extends BaseObject implements ReplyMarkupInterface
 {

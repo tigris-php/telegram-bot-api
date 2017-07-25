@@ -16,9 +16,9 @@ use Tigris\Telegram\Types\Scalar\ScalarString;
  * @link https://core.telegram.org/bots/api#messageentity
  *
  * @property string $type
- * @property integer $offset
- * @property integer $length
- * @property integer $url
+ * @property int $offset
+ * @property int $length
+ * @property int $url
  * @property User $user
  */
 class MessageEntity extends BaseObject

@@ -16,12 +16,12 @@ use Tigris\Telegram\Types\Inline\InlineQueryResult;
  * @link https://core.telegram.org/bots/api#inlinequeryresultgif
  *
  * @property string $gif_url
- * @property int|null $gif_width
- * @property int|null $gif_height
- * @property int|null $gif_duration
+ * @property int $gif_width
+ * @property int $gif_height
+ * @property int $gif_duration
  * @property string $thumb_url
- * @property string|null $title
- * @property string|null $caption
+ * @property string $title
+ * @property string $caption
  */
 class InlineQueryResultGif extends InlineQueryResult
 {

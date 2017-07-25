@@ -2,7 +2,9 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Inline\InlineQueryResult;
+
 use Tigris\Telegram\Types\Inline\InlineQueryResult;
 
 /**
@@ -14,10 +16,10 @@ use Tigris\Telegram\Types\Inline\InlineQueryResult;
  * @package Tigris\Types\Inline
  * @link https://core.telegram.org/bots/api#inlinequeryresultcacheddocument
  *
- * @property string $title Title for the result.
- * @property string $document_file_id A valid file identifier for the file.
- * @property string $description Optional. Short description of the result.
- * @property string $caption Optional. Caption of the document to be sent, 0-200 characters.
+ * @property string $title
+ * @property string $document_file_id
+ * @property string $description
+ * @property string $caption
  */
 class InlineQueryResultCachedDocument extends InlineQueryResult
 {

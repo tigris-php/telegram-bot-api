@@ -11,7 +11,7 @@ use Tigris\Telegram\Types\Inline\InlineQueryResult;
  * @package Tigris\Types\Inline
  * @link https://core.telegram.org/bots/api#inlinequeryresultgame
  *
- * @property string $game_short_name Short name of the game.
+ * @property string $game_short_name
  */
 class InlineQueryResultGame extends InlineQueryResult
 {

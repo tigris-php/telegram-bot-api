@@ -19,7 +19,7 @@ use Tigris\Telegram\Types\Scalar\ScalarInteger;
  * @package Tigris\Telegram\Types
  * @link https://core.telegram.org/bots/api#update
  *
- * @property integer $update_id
+ * @property int $update_id
  * @property Message $message
  * @property Message $edited_message
  * @property Message $channel_post

@@ -2,7 +2,9 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Inline\InlineQueryResult;
+
 use Tigris\Telegram\Types\Inline\InlineQueryResult;
 
 /**
@@ -13,10 +15,10 @@ use Tigris\Telegram\Types\Inline\InlineQueryResult;
  * @package Tigris\Types\Inline
  * @link https://core.telegram.org/bots/api#inlinequeryresultcachedphoto
  *
- * @property string $photo_file_id A valid file identifier of the photo.
- * @property string $title Optional. Title for the result.
- * @property string $description Optional. Short description of the result.
- * @property string $caption Optional. Caption of the photo to be sent, 0-200 characters.
+ * @property string $photo_file_id
+ * @property string $title
+ * @property string $description
+ * @property string $caption
  */
 class InlineQueryResultCachedPhoto extends InlineQueryResult
 {

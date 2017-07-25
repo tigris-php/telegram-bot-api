@@ -2,6 +2,7 @@
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
+
 namespace Tigris\Telegram\Types\Scalar;
 
 use Tigris\Telegram\Types\Base\BaseScalar;
@@ -14,10 +15,10 @@ abstract class ScalarBoolean extends BaseScalar
 {
     /**
      * @inheritdoc
-     * @return boolean
+     * @return bool
      */
     public static function readData($data)
     {
-        return (boolean) $data;
+        return (boolean)$data;
     }
 }
