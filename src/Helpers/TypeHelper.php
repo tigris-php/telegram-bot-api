@@ -105,7 +105,7 @@ class TypeHelper
     }
 
     /**
-     * @param mixed $typeDef
+     * @param TypeInterface $typeDef
      * @param mixed $data
      * @param int $dimension
      * @return array
@@ -116,7 +116,7 @@ class TypeHelper
 
         if ($dimension == 1) {
             foreach ($data as $item) {
-                $result[] = self::parse($typeDef, $item);
+                $result[] = $typeDef::parse($item);
             }
         } else {
             $dimension--;
