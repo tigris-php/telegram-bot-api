@@ -198,7 +198,7 @@ class ApiWrapper
 
     /**
      * @param string $methodName
-     * @param string $arguments
+     * @param array $arguments
      * @return TypeInterface|null
      */
     public function __call($methodName, $arguments)
@@ -209,7 +209,7 @@ class ApiWrapper
 
         $response = null;
         try {
-            $response = $this->apiClient->call($methodName, $arguments);
+            $response = $this->apiClient->call($methodName, array_shift($arguments));
         } catch (\Exception $e) {
             if (is_callable($this->errorHandler)) {
                 call_user_func($this->errorHandler, $e);

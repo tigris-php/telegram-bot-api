@@ -95,8 +95,14 @@ class TypeHelper
             }
             /** @var BaseObject $result */
             $result = new $typeDef;
-            foreach ($typeDef::fields() as $field => $fieldDef) {
-                $result->offsetSet($field, self::parse($fieldDef, isset($data[$field]) ? $data[$field] : null));
+            foreach ($typeDef::fields() as $fieldName => $fieldDef) {
+                $value = isset($data[$fieldName]) ? $data[$fieldName] : null;
+                if (is_subclass_of($fieldDef, BaseObject::class)) {
+                    $value = $fieldDef::parse($value);
+                } else {
+                    $value = self::parse($fieldDef, $value);
+                }
+                $result->offsetSet($fieldName, $value);
             }
             return $result;
         } else {

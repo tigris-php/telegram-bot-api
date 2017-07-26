@@ -42,6 +42,9 @@ class ApiClient
             throw new \BadMethodCallException('Api token is not configured');
         }
 
+        // null check
+        $params = $params ?: [];
+
         // removing empty params
         $query = array_filter($params);
 

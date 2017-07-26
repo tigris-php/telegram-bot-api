@@ -32,7 +32,7 @@ use Tigris\Telegram\Types\Stickers\Sticker;
  * @property Message $reply_to_message
  * @property int $edit_date
  * @property string $text
- * @property MessageEntity[]
+ * @property MessageEntity[] $entities
  * @property Audio $audio
  * @property Document $document
  * @property Game $game
