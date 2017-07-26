@@ -5,6 +5,7 @@
 
 namespace Tigris\Telegram;
 
+use Tigris\Telegram\Helpers\TypeHelper;
 use Tigris\Telegram\Types\Chat;
 use Tigris\Telegram\Types\ChatMember;
 use Tigris\Telegram\Types\File;
@@ -219,8 +220,6 @@ class ApiWrapper
             return null;
         }
 
-        /** @var TypeInterface $type */
-        $type = self::METHODS[$methodName];
-        return $type::parse($response);
+        return TypeHelper::parse(self::METHODS[$methodName], $response);
     }
 }
