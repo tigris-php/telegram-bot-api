@@ -43,6 +43,15 @@ class TypeHelper
      */
     public static function parse($typeDef, $data)
     {
+        // parsing array definition
+        if (is_array($typeDef)) {
+            if (empty($data) || !is_array($data)) {
+                return [];
+            }
+
+            return self::parseArray($typeDef[0], $data, isset($typeDef[1]) ? $typeDef[1] : 1);
+        }
+
         // null data leads to null object
         if (is_null($data)) {
             return null;
@@ -60,15 +69,6 @@ class TypeHelper
         // parsing string definition
         if (is_string($typeDef)) {
             return self::parseString($typeDef, $data);
-        }
-
-        // parsing array definition
-        if (is_array($typeDef)) {
-            if (empty($data) || !is_array($data)) {
-                return [];
-            }
-
-            return self::parseArray($typeDef[0], $data, isset($typeDef[1]) ? $typeDef[1] : 1);
         }
 
         throw new \InvalidArgumentException('Invalid type definition: ' . $typeDef);
